@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.tile {
+    border: 1px blue solid;
+    text-align: center;
+    min-height: 20px;
+}
