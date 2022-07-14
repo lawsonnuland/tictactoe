@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Tic Tac Toe</h1>
-    <div>
-        <h2>Players</h2>
+    <h1 class="header">Tic Tac Toe</h1>
+    <div class="players">
         <h3 class="activeplayer"></h3>
-        <h4 id="playerone">Player 1</h4>
-        <input id="p1name" type="text" placeholder="Name" value="Player 1">
-        <input id="p1mark" type="text" placeholder="Marker" value="X">
-        <h4 id="playertwo">Player 2</h4>
-        <input id="p2name" type="text" placeholder="Name" value="Player 2">
-        <input id="p2mark" type="text" placeholder="Marker" value="O">
+        <h2>Players</h2>
+        <div class="container">
+
+            <div class="p1">
+                <h4 id="playerone">Player 1</h4>
+                <input id="p1name" type="text" placeholder="Name" value="Player 1">
+                <input id="p1mark" type="text" placeholder="Marker" value="X">
+            </div>
+
+            <div class="p2">
+                <h4 id="playertwo">Player 2</h4>
+                <input id="p2name" type="text" placeholder="Name" value="Player 2">
+                <input id="p2mark" type="text" placeholder="Marker" value="O">
+            </div>
+
+        </div>
+        
         <button class="startgame">Start New Game</button>
     </div>
     
